@@ -1,3 +1,4 @@
+  
 pipeline {
     agent any
     stages {
@@ -8,4 +9,5 @@ pipeline {
                 archiveArtifacts artifacts: 'dist/trainSchedule.zip'
             }
         }
-        
+    }
+}
